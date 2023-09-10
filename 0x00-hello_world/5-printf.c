@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*Main - Main function of my project
+*main - Main function of my project
 *
 *
 *Return: return always 0 (success)
