@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
+ *main - Main function of my project
  *
- *This program print exactly print text using puts() function
- *Return 0 at the end
+ *Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
