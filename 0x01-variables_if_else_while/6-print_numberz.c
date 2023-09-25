@@ -9,9 +9,9 @@ int main(void)
 {
 	int digitNum;
 
-	for (digitNum = 0; digitNum <= 9; digitNum++)
+	for (digitNum = '0'; digitNum <= '9'; digitNum++)
 	{
-		putchar(digitNum.tostring());
+		putchar(digitNum);
 	}
 
 	putchar('\n');
