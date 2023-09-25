@@ -11,7 +11,7 @@ int main(void)
 
 	for (digitNum = 0; digitNum <= 9; digitNum++)
 	{
-		putchar(digitNum);
+		printf("%d", digitNum);
 	}
 
 	putchar('\n');
