@@ -17,7 +17,8 @@ int main(void)
 			if (firstDigit < secondDigit)
 			{
 				putchar(firstDigit);
-				putchar(secondDigit);				
+				putchar(secondDigit);
+				
 				if (firstDigit < '8')
 				{
 					putchar(',');
