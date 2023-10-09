@@ -9,15 +9,11 @@
 
 int print_last_digit(int param)
 {
-	int result;
+	int result = param % 10;
 
-	if (param < 0)
+	if (result < 0)
 	{
-		result = ((param * -1) % 10);
-	}
-	else
-	{
-		result = (param % 10);
+		result = (result * -1);
 	}
 	_putchar('0' + result);
 	return (result);
